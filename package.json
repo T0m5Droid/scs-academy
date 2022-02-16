@@ -1,0 +1,21 @@
+{
+  "name": "scs-academy",
+  "version": "1.0.0",
+  "description": "SCS-Academy merupakan program kursus online (belajar secara Online) untuk meningkatkan keterampilan dan pengetahuan melalui cara digital secara online. Dengan berpedoman pada silabus kursus online yang di tekankan untuk pengetahuan teori ataupun praktikal yang bisa langsung di pelajari dan di terapkan dalam bisnis maupun pekerjaan sehari-hari.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i./src/css/input.css -o ./public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/T0m5Droid/scs-academy"
+  },
+  "author": "Toms Droid",
+  "license": "ISC"
+}
